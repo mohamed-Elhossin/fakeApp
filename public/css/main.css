@@ -1,0 +1,275 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+
+.form-group {
+    margin: 10px 0px;
+    color: white;
+    font-weight: bold;
+}
+
+.form-group .form-control {
+    margin: 10px 0px;
+    background-color: black;
+    color: white;
+}
+
+.form-group .form-control::placeholder {
+    color: white;
+}
+
+
+.card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.card i {
+    color: rgb(160, 112, 184);
+    font-size: 25px;
+    margin: 20px 0px;
+
+}
+
+.card-body {
+    background-color: #666;
+    color: white;
+}
+
+.bigDiv{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(47, 37, 52, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 21212;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+.myModel{
+    width: 90%;
+}
+
+
+
+
+ .bigDiv .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .bigDiv   .flex-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .bigDiv  .name-content {
+    margin-right: 7rem;
+  }
+
+  .bigDiv  .name-content .logo {
+    font-size: 3.5rem;
+    color: #1877f2;
+  }
+
+  .bigDiv  .name-content p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 5rem;
+  }
+
+  .bigDiv  form {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 2rem;
+    width: 530px;
+    height: 500px;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  }
+
+  .bigDiv  form input {
+    outline: none;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+  }
+
+  .bigDiv  form input:focus {
+    border: 1.8px solid #1877f2;
+  }
+
+  .bigDiv  form .login {
+    outline: none;
+    border: none;
+    background: #1877f2;
+    padding: 0.8rem 1rem;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    color: #fff;
+  }
+
+  .bigDiv  form .login:hover {
+    background: #0f71f1;
+    cursor: pointer;
+  }
+
+  .bigDiv  form a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 0.8rem;
+    color: #1877f2;
+  }
+
+  .bigDiv   form hr {
+    background: #f7f7f7;
+    margin: 1rem;
+  }
+
+  .bigDiv   form .create-account {
+    outline: none;
+    border: none;
+    background: #06b909;
+    padding: 0.8rem 1rem;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    color: #fff;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .bigDiv  form .create-account:hover {
+    background: #03ad06;
+    cursor: pointer;
+  }
+
+  /* //.........Media Query.........// */
+
+  @media (max-width: 500px) {
+
+
+    .bigDiv   .name-content {
+      margin: 0;
+      text-align: center;
+    }
+
+    .bigDiv   form {
+      width: 300px;
+      height: fit-content;
+    }
+
+    .bigDiv  form input {
+      margin-bottom: 1rem;
+      font-size: 15px;
+    }
+
+    .bigDiv   form .login {
+        font-size: 15px;
+    }
+
+    .bigDiv  form a {
+        font-size: 15px;
+    }
+
+    .bigDiv  form .create-account {
+        font-size: 15px;
+    }
+
+    .bigDiv  .flex-div {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  @media (min-width: 501px) and (max-width: 768px) {
+    .bigDiv   html {
+      font-size: 60%;
+    }
+
+    .bigDiv   .name-content {
+      margin: 0;
+      text-align: center;
+    }
+
+    .bigDiv  form {
+      width: 300px;
+      height: fit-content;
+    }
+
+    .bigDiv  form input {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+
+    .bigDiv   form .login {
+      font-size: 1.5rem;
+    }
+
+    .bigDiv   form a {
+      font-size: 1.5rem;
+    }
+
+    .bigDiv   form .create-account {
+      font-size: 1.5rem;
+    }
+
+    .bigDiv   .flex-div {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .bigDiv    html {
+      font-size: 60%;
+    }
+
+    .bigDiv   .name-content {
+      margin: 0;
+      text-align: center;
+    }
+
+    .bigDiv   form {
+      width: 300px;
+      height: fit-content;
+    }
+
+    .bigDiv   form input {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+
+    .bigDiv   form .login {
+      font-size: 1.5rem;
+    }
+
+    .bigDiv    form a {
+      font-size: 1.5rem;
+    }
+
+    .bigDiv   form .create-account {
+      font-size: 1.5rem;
+    }
+
+    .bigDiv   .flex-div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    @media (orientation: landscape) and (max-height: 500px) {
+        .bigDiv     .header {
+        height: 90vmax;
+      }
+    }
+  }
