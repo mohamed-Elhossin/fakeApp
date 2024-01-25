@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Estrada RealStat</title>
+    <title>SoftWare Real</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -18,8 +18,8 @@
 <body class="antialiased">
 
     <div class="container col-md-7 text-center">
-        <img width="20%" src="{{ asset('uuuu.avif') }}" >
-        <div class="card">
+
+        <div class="card mt-5">
             @if ($errors->any())
                 <div class="alert alert-dark text-start">
                     <ul>
