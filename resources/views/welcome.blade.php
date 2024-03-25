@@ -56,6 +56,14 @@
                         <label for=""> Upload Your CV : </label>
                         <input type="file" name="cvFile" class="form-control">
                     </div>
+                    <div class="form-group">
+                        <label for=""> Job Type : </label>
+                        <input type="checkbox" name="Full Time"> Part Time
+                        <input type="checkbox" name="Part Time Time">
+                        Full Time
+                        <input type="checkbox" name="Part Time Time">
+                        Remotly
+                    </div>
                     <div class="d-grid">
                         <button class="btn btn-dark">
                             Send Your application
